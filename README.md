@@ -1,1 +1,7 @@
 <img width="1942" height="595" alt="ChatGPT Image Jun 15, 2026, 10_22_18 PM" src="https://github.com/user-attachments/assets/dc915db2-2deb-47a6-946f-2bc652eccd77" />
+## Introduction
+The Bollywood Movie Recommender System is a content-based recommendation project designed to help users discover movies that match their interests and viewing preferences. With the rapid growth of digital entertainment platforms, finding relevant movies from a large collection can be challenging. This project addresses that problem by providing personalized movie recommendations based on the similarity of movie plot summaries and other textual features.
+
+The system utilizes Natural Language Processing (NLP) techniques to analyze movie descriptions and extract meaningful information from textual data. After preprocessing the data, TF-IDF (Term Frequency-Inverse Document Frequency) vectorization is applied to convert movie plots into numerical feature vectors. Cosine Similarity is then used to measure the similarity between movies and identify those with comparable themes, genres, and storylines.
+
+When a user selects a movie, the system recommends a list of similar Bollywood movies, enabling users to discover new content efficiently. The final recommendation engine can be integrated into a user-friendly web application using Streamlit, providing an interactive and engaging experience for movie enthusiasts.
