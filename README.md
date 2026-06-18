@@ -8,6 +8,12 @@ The system utilizes Natural Language Processing (NLP) techniques to analyze movi
 When a user selects a movie, the system recommends a list of similar Bollywood movies, enabling users to discover new content efficiently. The final recommendation engine can be integrated into a user-friendly web application using Streamlit, providing an interactive and engaging experience for movie enthusiasts.
 
 ## Project Pipeline
+Data Collection & Understanding: Imported the Wiki Movie Plots dataset and selected relevant Bollywood movie information such as titles, genres, and plot summaries for recommendation generation.
+Data Preprocessing: Cleaned the dataset by handling missing values, removing duplicates, and preprocessing plot descriptions through text cleaning and normalization techniques.
+Exploratory Data Analysis (EDA): Analyzed movie distributions, genres, and common patterns within plot summaries to better understand the dataset.
+Feature Engineering & Similarity Calculation: Converted movie plots into numerical vectors using TF-IDF and calculated Cosine Similarity scores to measure the similarity between movies.
+Recommendation Engine Development: Built a content-based recommendation system that identifies and suggests movies with similar storylines and themes based on user-selected movies.
+Deployment: Integrated the recommendation model into a Streamlit web application, allowing users to receive personalized Bollywood movie recommendations through an interactive interface.
 
 ## About Dataset
 The dataset used in this project is Wiki Movie Plots, which contains information about thousands of movies collected from publicly available Wikipedia sources. For this recommender system, Bollywood movie records were extracted and utilized to build personalized movie recommendations.
