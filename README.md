@@ -21,3 +21,9 @@ The dataset includes important attributes such as movie title, release year, gen
 Since recommendation quality heavily depends on textual information, the movie plot summaries were used to identify similarities between films. These descriptions provide insights into the narrative, characters, themes, and overall context of each movie.
 Before model development, the dataset underwent preprocessing steps such as handling missing values, removing duplicate records, and cleaning textual data. This ensured consistency and improved the effectiveness of the recommendation engine.
 The final processed dataset serves as the foundation for generating movie recommendations by transforming plot summaries into numerical representations and measuring similarity between movies using Natural Language Processing (NLP) techniques.
+
+## EDA
+## MOdel
+## Model evaluation
+## Conclusion
+##Sources
